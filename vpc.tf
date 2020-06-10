@@ -21,10 +21,4 @@ module "vpc" {
     Environment = "dev"
   }
 
-  vpc_tags = {
-    Name = "sfterr-name"
-  }
-  tags = {
-    name = "${var.prefix}-vpc"
-  }
 }
